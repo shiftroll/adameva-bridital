@@ -1,0 +1,34 @@
+name: Deploy Supabase
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Deploy to Supabase
+        run: |
+          # Set the Supabase configuration
+          echo ${{ secrets.SUPABASE_API_KEY }} > supabase-config.json
+
+          # Deploy your Supabase code and database using Supabase CLI or other tools
+          supabase deploy -c supabase-config.json
+        env:
+          SUPABASE_CONFIG: ${{ secrets.SUPABASE_API_KEY }}
+        secrets:
+          SUPABASE_CONFIG: ${{ secrets.SUPABASE_API_KEY }}
