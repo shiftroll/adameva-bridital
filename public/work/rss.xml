@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Projects </title>
+    <description>Projects  Feed</description>
+    <link></link>
+    <pubDate>Tue, 10 Oct 2023 19:11:22 GMT</pubDate>
+    <atom:link href="/work/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Sinder</title>
+            
+            <link>/work/looking-for-life-beyond-earth/</link>
+            <pubDate>Tue, 10 Oct 2023 19:11:22 GMT</pubDate>
+            <guid>/work/looking-for-life-beyond-earth/</guid>
+            
+            <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/external/6524d3ff6ae5ef842960ea1e_sinder.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Sinder is a dating app for single socks. The design concept stems from the mission of the company: to help single socks meet their match. Simple, elegant, and cheerful tones convey the optimism of this company&#39;s mission.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/external/6524d3ff6ae5ef842960ea21_sinder2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+            
+        </item>
+        <item>
+            <title>Looking for Life Beyond Earth </title>
+            
+            <link>/work/looking-for-life-beyond-earth-2/</link>
+            <pubDate>Tue, 10 Oct 2023 19:11:22 GMT</pubDate>
+            <guid>/work/looking-for-life-beyond-earth-2/</guid>
+            
+            <content type="html">&lt;p&gt;This project has made it to the sun, hence the blank yellow sun-like screen. It&#39;s confirmed that, contrary to popular belief, there is no life on the sun. My design concept for this mission conveys simultaneous emptiness and optimism for finding life beyond earth, and the sun, apparently.&lt;/p&gt;
+&lt;p&gt;‍&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/external/6524d3ff6ae5ef842960ea1d_sinder3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/external/6524d3ff6ae5ef842960ea16_igotchu20_blankhand.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+            
+        </item>
+        <item>
+            <title>iGotchu</title>
+            
+            <link>/work/igotchu/</link>
+            <pubDate>Tue, 10 Oct 2023 19:11:22 GMT</pubDate>
+            <guid>/work/igotchu/</guid>
+            
+            <content type="html">&lt;p&gt;iGotchu is an app that just...gets you, so, we designed with a diverse array of hand models.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/external/6524d3ff6ae5ef842960ea1c_igotchu204.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/external/6524d3ff6ae5ef842960ea15_igotchu203.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/external/6524d3ff6ae5ef842960ea13_igotchu20icon202.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+            
+        </item>
+  </channel>
+</rss>
