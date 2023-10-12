@@ -60,4 +60,34 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 		//EXECUTION
     updateSubmitButton();
-});</script><script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script><script type="module">import*as UdeslyBanner from"";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
+});
+
+<script>
+  document.getElementById('submit-form').addEventListener('click', function(event) {
+    event.preventDefault();
+    const formData = {
+      Name: document.getElementById('FullName').value,
+      Phone: document.getElementById('PhoneNumber').value,
+      Email: document.getElementById('Email').value,
+      Message: document.getElementById('Message').value
+    };
+
+    fetch('/submit', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer [Airtable-api-token]',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Handle the response here, including QR code generation.
+    })
+    .catch(error => console.error('Error:', error));
+  });
+</script>
+
+
+
+
